@@ -153,7 +153,12 @@ Para ejecutar el proyecto, ejecute el siguiente comando:
 Para ejecutar la prueba, ejecute el siguiente comando o endpoint:
 
 ```sh
-npm run test
+Eslint:
+npx eslint .
+npx eslint . --fix
+Sylint:
+npx stylint '**/*.css'
+npx stylint '**/*.css' --fix 
 
 ```
 
