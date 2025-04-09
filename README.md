@@ -132,7 +132,7 @@ Se instalo los paquetes necesarios para la ejecucion del proyecto:
 7.npm install --save-dev html-webpack-plugin
 8.npm install --save-dev css-loader
 9.npm install -g azure-cli
-10.python -m unittest test_module.TestClass
+
 
 
 
@@ -153,8 +153,7 @@ Para ejecutar el proyecto, ejecute el siguiente comando:
 Para ejecutar la prueba, ejecute el siguiente comando o endpoint:
 
 ```sh
-python -m unittest test_module.TestClass
-python -m unittest test_module
+npm run test
 
 ```
 
